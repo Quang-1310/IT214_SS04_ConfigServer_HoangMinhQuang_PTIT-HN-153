@@ -3,7 +3,7 @@ spring:
         name: Exams-Service
     datasource:
         driver-class-name: com.mysql.cj.jdbc.Driver
-        url: jdbc:mysql://localhost:3310/exam-db
+        url: jdbc:mysql://localhost:3324/exam-db
         username: root
         password: Quang13102006
 
