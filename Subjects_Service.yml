@@ -3,7 +3,7 @@ spring:
         name: Subjects_Service
     datasource:
         driver-class-name: com.mysql.cj.jdbc.Driver
-        url: jdbc:mysql://localhost:3310/subject-db
+        url: jdbc:mysql://localhost:3321/subject-db
         username: root
         password: Quang13102006
 
