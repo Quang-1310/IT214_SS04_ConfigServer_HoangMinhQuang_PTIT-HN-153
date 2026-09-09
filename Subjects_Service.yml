@@ -1,0 +1,20 @@
+spring:
+    application:
+        name: Subjects_Service
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3310/subject-db
+        username: root
+        password: Quang13102006
+
+    #jpa:
+    jpa:
+        show-sql: true
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.MySQLDialect
+                format_sql: true
+server:
+    port: 8088
