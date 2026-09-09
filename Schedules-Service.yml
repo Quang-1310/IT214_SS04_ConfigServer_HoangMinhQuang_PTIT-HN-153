@@ -3,7 +3,7 @@ spring:
         name: Schedules-Service
     datasource:
         driver-class-name: com.mysql.cj.jdbc.Driver
-        url: jdbc:mysql://localhost:3310/schedule-db
+        url: jdbc:mysql://localhost:3322/schedule-db
         username: root
         password: Quang13102006
 
